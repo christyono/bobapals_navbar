@@ -1,0 +1,41 @@
+.desktopLink {
+  display: none;
+  margin-left: 219px;
+}
+
+.mobileLink {
+  display: block;
+}
+
+.dropdown{
+  position: fixed;
+  top: 72px;
+  width: 100%;
+  background-color: rgb(101, 159, 226);
+  left:0;
+  right:0;
+}
+
+.nav {
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  bottom: 0;
+  padding-bottom: 0;
+}
+
+.yomama {
+  position: fixed;
+  width: 100vw;
+}
+
+@media (min-width: 1024px) {
+  .desktopLink {
+    display: block;
+  }
+  .mobileLink {
+    display: none;
+  }
+}

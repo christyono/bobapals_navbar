@@ -1,9 +1,16 @@
-.container {
+/* .container {
   padding: 0 2rem;
+} */
+.bigasstext {
+  font-size: 100px;
+}
+
+.content {
+  padding-top: 50px;
 }
 
 .main {
-  min-height: 100vh;
+  min-height: 100%;
   padding: 4rem 0;
   flex: 1;
   display: flex;
